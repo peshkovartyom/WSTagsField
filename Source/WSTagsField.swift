@@ -549,7 +549,6 @@ extension WSTagsField {
         set { textField.text = newValue }
     }
 
-    @available(iOS, unavailable)
     override open var inputAccessoryView: UIView? {
         return super.inputAccessoryView
     }
